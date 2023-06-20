@@ -1,0 +1,43 @@
+.main {
+  padding: 20px 0;
+}
+
+.main__cards {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.main__card {
+  height: 100%;
+  margin-bottom: 40px;
+}
+
+.main__card img {
+  width: 400px;
+  height: 270px;
+}
+
+.main__card h2 {
+  width: 400px;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.main__card p {
+  width: 400px;
+  font-size: 15px;
+}
+
+.main__card button {
+  padding: 7px 10px;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  margin-top: 15px;
+}

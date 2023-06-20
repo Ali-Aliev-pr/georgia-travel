@@ -1,0 +1,91 @@
+.main {
+  padding: 20px 0;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.main__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.main__card {
+  height: 100%;
+  margin-bottom: 40px;
+}
+
+.main__card img {
+  width: 400px;
+  height: 270px;
+}
+
+.main__card h2 {
+  width: 400px;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.main__card__description {
+  width: 400px;
+  font-size: 15px;
+}
+
+.main__card__price {
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.main__card button {
+  padding: 7px 10px;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.main__buttons {
+  margin-bottom: 20px;
+}
+
+.main__buttons button {
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.main__buttons button:not(:first-child) {
+  margin-left: 10px;
+}
+
+.selected__button {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid #000 !important;
+  transition: 0.5s;
+}
+
+.main__card__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.main__card__buttons {
+  display: flex;
+  justify-content: space-between;
+}

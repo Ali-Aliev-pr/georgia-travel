@@ -1,0 +1,59 @@
+.main {
+  padding: 20px 0;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Создает 3 столбца равной ширины */
+  grid-gap: 10px;
+}
+
+.main__cards {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+
+.main__card {
+  height: 100%;
+  margin-bottom: 40px;
+}
+
+.main__card img {
+  width: 400px;
+  height: 270px;
+}
+
+.main__card h2 {
+  width: 400px;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.main__card__description {
+  width: 400px;
+  font-size: 15px;
+}
+
+.main__card__price {
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.main__card__buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__card__buttons button {
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
